@@ -22,7 +22,7 @@ const Header = () => {
             <Link to={"/"}>HOME</Link>
           </li>
           <li>
-            <Link>ADD Product</Link>
+            <Link to={"/add-course"}>ADD Product</Link>
           </li>
           <li>
             <Link>COURSES</Link>
@@ -39,7 +39,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="headerend">
-        <PhoneOutlined />
+        <img
+          src="https://preview.colorlib.com/theme/course/images/phone-call.svg"
+          alt=""
+        />
+        <h1>+43 4566 7788 2457</h1>
       </div>
     </div>
   );

@@ -4,43 +4,106 @@
   box-sizing: border-box;
 }
 #home {
+  #first {
+    margin-top: 300px;
+  }
   #second {
-    margin-top: 100px;
-    .title {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tittle {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 10px;
+
       p {
+        width: 55px;
+        height: 4px;
+        background-color: orange;
       }
       h1 {
+        font-size: 36px;
       }
     }
     .cards {
       display: flex;
-      column-gap: 10px;
+      column-gap: 30px;
       justify-content: center;
       .card {
         width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         .card-img {
-          img {
-            width: 350px;
-            height: 263px;
+          a {
+            text-decoration: none;
+            img {
+              width: 350px;
+              height: 263px;
+            }
           }
         }
         div {
+          padding: 20px 0;
+          .description {
+            color: black;
+            &:hover {
+              color: gray;
+            }
+          }
         }
         .card-footer {
+          background-color: gainsboro;
+          img {
+            border-radius: 50%;
+            margin-left: 10px;
+          }
           display: flex;
           width: 100%;
           align-items: center;
           justify-content: space-between;
           div {
             display: flex;
+            p {
+              color: black;
+              font-size: 14px;
+            }
+            .author {
+              color: gray;
+            }
           }
           .price {
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: orange;
+            height: 100%;
+            width: 100px;
+            color: white;
           }
         }
       }
+    }
+  }
+  #third {
+    display: flex;
+    margin-top: 100px;
+    height: 678px;
+    .left {
+      width: 50%;
+      height: 100%;
+      background-color: orange;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 }

@@ -21,7 +21,7 @@ const AddCourse = () => {
   });
 
   return (
-    <div>
+    <div style={{marginTop:"300px",marginLeft:"300px",}}>
       <Formik
         initialValues={{
           name: "Michael Smith",
