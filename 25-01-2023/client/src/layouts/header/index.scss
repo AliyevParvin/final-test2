@@ -1,0 +1,39 @@
+#header {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+  z-index: 1;
+  div {
+    a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+    }
+  }
+  div {
+    ul {
+      display: flex;
+      column-gap: 10px;
+      list-style: none;
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+  .headerend {
+    background-color: orange;
+    height: 100%;
+    width: 200px;
+  }
+}

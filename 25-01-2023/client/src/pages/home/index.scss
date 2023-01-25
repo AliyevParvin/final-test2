@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#home {
+  #second {
+    margin-top: 100px;
+    .title {
+      p {
+      }
+      h1 {
+      }
+    }
+    .cards {
+      display: flex;
+      column-gap: 10px;
+      justify-content: center;
+      .card {
+        width: 350px;
+        .card-img {
+          img {
+            width: 350px;
+            height: 263px;
+          }
+        }
+        div {
+        }
+        .card-footer {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
+          div {
+            display: flex;
+          }
+          .price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
